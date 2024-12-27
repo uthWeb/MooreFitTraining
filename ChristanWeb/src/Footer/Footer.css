@@ -1,0 +1,42 @@
+/* Footer Container */
+.footer-container {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* For Mobile Devices */
+@media (max-width: 600px) {
+    .footer-container {
+        padding: 15px; /* Adjust padding for mobile */
+        font-size: 0.9rem; /* Reduce font size for mobile */
+    }
+
+    .contact-info p {
+        font-size: 0.9rem; /* Smaller text for mobile */
+    }
+
+    .contact-info a {
+        font-size: 1rem; /* Ensure the links are readable */
+    }
+
+    .footer-container {
+        text-align: center; /* Ensure text is centered on mobile */
+    }
+}

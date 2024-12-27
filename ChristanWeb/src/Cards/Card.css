@@ -1,0 +1,45 @@
+
+
+.Container{
+
+    background-color: silver;
+   
+    height: fit-content;
+    border-radius: 3%;
+    padding:2rem;
+    margin: 50px;
+    box-shadow: 10px 10px rgb(142, 121, 2) ;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+
+@keyframes shine{
+    from {background-color: rgb(198, 198, 198);}
+    to{background-color: silver;}
+}
+
+.Container:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 16px 16px rgb(142, 121, 2) ;
+  
+    
+}
+
+
+.Container:active{
+    transition: 0.01s;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(142, 121, 2) ;
+    box-shadow: 16px 16px rgb(65, 55, 1) ;
+   
+  
+    
+}
