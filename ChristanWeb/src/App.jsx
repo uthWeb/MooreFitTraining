@@ -11,7 +11,6 @@ function App() {
   return (
     <>
 
-
     <Header></Header>
     <Title name= "MooreFitTraining"></Title>
     <CardContainer></CardContainer>
